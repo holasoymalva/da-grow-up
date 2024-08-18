@@ -27,7 +27,7 @@ const tasks: Task[] = [
 
 const Dashboard: React.FC = () => {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-1000 min-h-screen">
       <DashboardHeader username="Martin" />
       <ProgressStatistics />
       <div className="mt-6">

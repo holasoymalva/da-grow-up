@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <h1 className="text-4xl font-bold">Grow Up</h1>
-      <p className="mt-4 text-lg text-gray-100">
+      <p className="mt-4 text-lg text-gray-100 text-center">
         Level Up your life by completing daily tasks.
       </p>
       {isLoggedIn ? (
