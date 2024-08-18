@@ -12,11 +12,11 @@ const ProgressStatistics: React.FC = () => {
         </div>
         <div>
           <p className="text-gray-700 text-sm">Your progress</p>
-          <p className="text-3xl font-bold">78%</p>
+          <p className="text-3xl font-bold text-green-500">78%</p>
         </div>
       </div>
       <div className="mt-4 flex space-x-4">
-        <button className="px-4 py-2 bg-blue-500 text-white rounded-lg">Weekly</button>
+        <button className="px-4 py-2 bg-gray-800 text-white rounded-lg">Weekly</button>
         <button className="px-4 py-2 bg-gray-300 text-black rounded-lg">Monthly</button>
       </div>
     </div>
